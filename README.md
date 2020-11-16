@@ -10,7 +10,7 @@ Array wrappers for working with aligned memory allocations suitable for efficien
 AlignedArrays.jl is still in early development, and currently only works for Linux systems.
 Basic usage follows that of standard Array, Vector, Matrix types, but with the added parameter depicting the alignment of the array's memory.
 Use `AlignedArray`, `AlignedVector`, or `AlignedMatrix` to specify memory alignment as a type parameter.
-We provide  `PageAlignedArray`, `PageAlignedArray`, and `PageAlignedArray` for convenience when allocations using the system's page-alignment is desired.
+We provide  `PageAlignedArray`, `PageAlignedVector`, and `PageAlignedMatrix` for convenience when allocations using the system's page-alignment is desired.
 
 ```jl
 julia> using AlignedArrays
